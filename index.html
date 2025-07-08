@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Labirinto do Conhecimento</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="login">
+    <h1>Entre no Labirinto</h1>
+    <input type="text" id="username" placeholder="Seu nome" />
+    <select id="avatarSelect">
+      <option value="avatar1">Avatar 1</option>
+      <option value="avatar2">Avatar 2</option>
+    </select>
+    <button onclick="startGame()">Entrar</button>
+  </div>
+  <canvas id="gameCanvas"></canvas>
+  <script src="firebase-config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

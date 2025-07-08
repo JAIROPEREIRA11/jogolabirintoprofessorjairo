@@ -1,0 +1,12 @@
+[
+  {
+    "pergunta": "O que é fluxo de caixa?",
+    "alternativas": ["Controle de estoque", "Registro de entradas e saídas financeiras", "Planejamento de marketing", "Processo de recrutamento"],
+    "resposta": 1
+  },
+  {
+    "pergunta": "Qual é a principal função do marketing?",
+    "alternativas": ["Contratar funcionários", "Gerenciar recursos", "Atrair e manter clientes", "Controlar finanças"],
+    "resposta": 2
+  }
+]
