@@ -14,7 +14,7 @@ const firebaseConfig = {
   messagingSenderId: "409472042344",
   appId: "1:409472042344:web:be702da9bc1e6970cd42dd",
   measurementId: "G-CZ4930P5KM"
-};
+  databaseURL:"https://jogo-educativo-86afb-default-rtdb.firebaseio.com"
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

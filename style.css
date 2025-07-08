@@ -20,18 +20,3 @@ body {
   top: 0;
   left: 0;
 }
-#questionBox {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #222;
-  padding: 20px;
-  border-radius: 10px;
-  z-index: 20;
-  color: white;
-  max-width: 80%;
-}
-#answers button {
-  margin: 5px;
-}

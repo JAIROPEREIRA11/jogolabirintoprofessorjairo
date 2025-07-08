@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>Labirinto do Conhecimento</title>
+  <title>Labirinto do Conhecimento - Multiplayer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -10,16 +10,13 @@
     <h1>Entre no Labirinto</h1>
     <input type="text" id="username" placeholder="Seu nome" />
     <select id="avatarSelect">
-      <option value="avatar1">Avatar 1</option>
-      <option value="avatar2">Avatar 2</option>
+      <option value="blue">Azul</option>
+      <option value="red">Vermelho</option>
+      <option value="green">Verde</option>
     </select>
     <button onclick="startGame()">Entrar</button>
   </div>
   <canvas id="gameCanvas"></canvas>
-  <div id="questionBox" style="display:none;">
-    <p id="questionText"></p>
-    <div id="answers"></div>
-  </div>
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
