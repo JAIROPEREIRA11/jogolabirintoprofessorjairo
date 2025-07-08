@@ -1,0 +1,23 @@
+{
+  "labirinto": [
+    "1111111",
+    "1P000Q1",
+    "1110111",
+    "1Q000S1",
+    "1111111"
+  ],
+  "perguntas": [
+    {
+      "id": "1",
+      "questao": "Qual a função do marketing?",
+      "alternativas": ["Contratar", "Atrair clientes", "Produzir", "Entregar"],
+      "correta": 1
+    },
+    {
+      "id": "2",
+      "questao": "O que é fluxo de caixa?",
+      "alternativas": ["Controle de estoque", "Lucro bruto", "Controle de entradas e saídas", "Controle de pessoal"],
+      "correta": 2
+    }
+  ]
+}
